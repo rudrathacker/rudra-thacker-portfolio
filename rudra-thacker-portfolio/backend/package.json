@@ -1,0 +1,21 @@
+{
+  "name": "rudra-thacker-portfolio-backend",
+  "version": "1.0.0",
+  "description": "Backend for Rudra Thacker's personal portfolio website",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "author": "Rudra Thacker",
+  "license": "MIT"
+}
